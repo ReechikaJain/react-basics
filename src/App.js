@@ -7,7 +7,7 @@ import Compoonent2 from './Component2'
 export default function App() {
   return (
     <div>
-      <Header/>
+      <Header name = {"Reechika Jain"} age = {24} isworking = {false} family={["Anita", "Deepanshu", "Santosh", "Sanjay"]} />
       <h1>Reechika App</h1>
       <Component1/>
       <Compoonent2/>
